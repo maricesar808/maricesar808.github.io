@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mari Cesar | Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f4ef;
+      color: #2f2f2f;
+      line-height: 1.6;
+    }
+
+    nav {
+      background: #ffffff;
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+      position: sticky;
+      top: 0;
+    }
+
+    nav h2 {
+      margin: 0;
+      font-size: 22px;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      margin-left: 25px;
+      text-decoration: none;
+      color: #2f2f2f;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: #8a6f55;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 60px;
+      padding: 80px 10%;
+      min-height: 70vh;
+    }
+
+    .hero img {
+      width: 330px;
+      height: 430px;
+      object-fit: cover;
+      border-radius: 18px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+
+    .hero-text {
+      max-width: 600px;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      color: #8a6f55;
+      font-size: 22px;
+      margin-top: 0;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      background: #8a6f55;
+      color: white;
+      padding: 12px 22px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 70px 10%;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+      margin-bottom: 25px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #ffffff;
+      border-top: 1px solid #ddd;
+      color: #666;
+    }
+
+    @media (max-width: 800px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 38px;
+      }
+
+      nav {
+        flex-direction: column;
+      }
+
+      nav a {
+        margin: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <h2>Mari Cesar</h2>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="highlights.html">Highlights</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <img src="mari-photo.jpg" alt="Portrait of Mari Cesar">
+    <div class="hero-text">
+      <h1>Hi, I’m Mari Cesar.</h1>
+      <h3>Babson College Student | Technology Entrepreneurship & Sales</h3>
+      <p>
+        I am a business student passionate about technology, entrepreneurship,
+        sales, digital innovation, and relationship-driven leadership.
+      </p>
+      <a class="button" href="about.html">Learn More About Me</a>
+    </div>
+  </div>
+
+  <footer>
+    © 2026 Mari Cesar
+  </footer>
+</body>
+</html>
